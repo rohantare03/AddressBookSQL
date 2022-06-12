@@ -19,3 +19,5 @@ Insert into AddressBook values('Hades','Dark','Beverlyhills','Sanfransico','Newy
 Insert into AddressBook values('Rahul','Tare','Palhar','Surat','Gujarat',400022,9975062727,'rahul@gmail.com')
 Insert into AddressBook values('Zeus','Light','Mulund','Navimumbai','MH',400031,9956442187,'zeus@gmial.com')
 select * from AddressBook
+
+Update AddressBook set Address = 'Vasai' where FirstName = 'Rohan'
