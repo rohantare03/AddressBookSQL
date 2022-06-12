@@ -21,3 +21,5 @@ Insert into AddressBook values('Zeus','Light','Mulund','Navimumbai','MH',400031,
 select * from AddressBook
 
 Update AddressBook set Address = 'Vasai' where FirstName = 'Rohan'
+
+Delete from AddressBook where FirstName = 'Rahul'
