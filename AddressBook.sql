@@ -18,9 +18,12 @@ Insert into AddressBook values('Rohan','Tare','Virar','Mumbai','Maharashtra',401
 Insert into AddressBook values('Hades','Dark','Beverlyhills','Sanfransico','Newyork',100023,9564213370,'hades@gmail.com')
 Insert into AddressBook values('Rahul','Tare','Palhar','Surat','Gujarat',400022,9975062727,'rahul@gmail.com')
 Insert into AddressBook values('Zeus','Light','Mulund','Navimumbai','MH',400031,9956442187,'zeus@gmial.com')
+Insert into AddressBook values('Kylie','Jenner','Miami','Mumbai','Maharashtra',487332,9876543213,'kylie@gmail.com')
 select * from AddressBook
 
 Update AddressBook set Address = 'Vasai' where FirstName = 'Rohan'
 
 Delete from AddressBook where FirstName = 'Rahul'
 select * from AddressBook where City = 'Mumbai' or State = 'Maharashtra'
+
+select Count(City) from AddressBook where City = 'Mumbai' and State = 'Maharashtra'
