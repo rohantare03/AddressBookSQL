@@ -23,3 +23,4 @@ select * from AddressBook
 Update AddressBook set Address = 'Vasai' where FirstName = 'Rohan'
 
 Delete from AddressBook where FirstName = 'Rahul'
+select * from AddressBook where City = 'Mumbai' or State = 'Maharashtra'
