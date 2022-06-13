@@ -27,3 +27,5 @@ Delete from AddressBook where FirstName = 'Rahul'
 select * from AddressBook where City = 'Mumbai' or State = 'Maharashtra'
 
 select Count(City) from AddressBook where City = 'Mumbai' and State = 'Maharashtra'
+
+select * from AddressBook where city = 'Mumbai' order by FirstName
